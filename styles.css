@@ -75,7 +75,8 @@ margin-top:0px;
 
 .cards{
     display:flex;
-    gap:8px;
+    gap:16px;
+    justify-content:center;
 }
 
 .card{
@@ -87,5 +88,20 @@ margin-top:0px;
 }
 
 .cards div{
-    
+    display:flex;
+    flex:1 1 auto;
+    flex-direction:column;
+    align-items:center;
+}
+
+.cards p{
+    width:150px;
+    text-align: center;
+    color:#818385;
+}
+
+.raninfo{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
 }
